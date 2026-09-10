@@ -19,7 +19,7 @@ Before evaluating adversarial vectors—such as prompt injection, model inversio
 
 Modern artificial intelligence is organized into nested technical domains, each introducing greater abstraction and data autonomy:
 
-![AI Taxonomy Hierarchy](./assets/llms_phto2_2.png)
+![AI Taxonomy Hierarchy](./assets/llms_phto2.png)
 *Figure 1: Conceptual hierarchy illustrating the progression from foundational AI down to Large Language Models.*
 
 * **Artificial Intelligence (AI):** The broad discipline of engineering machines capable of simulating human cognitive decision-making.
@@ -51,7 +51,7 @@ Every machine learning model operates on an iterative mathematical feedback loop
 
 Traditional Recurrent Neural Networks (RNNs) analyzed text sequentially, introducing compute bottlenecks and struggling with long-range dependencies. Introduced in Google's 2017 paper *Attention Is All You Need*, the **Transformer architecture** replaced recurrence with **Self-Attention Mechanisms**:
 
-![Transformer Next Token Prediction and Attention](./assets/llm_photo_2.jpg)
+![Transformer Next Token Prediction and Attention](./assets/llm_photo.png)
 *Figure 2: Next-token prediction mechanics and parallelized attention context mapping.*
 
 * **Parallel Token Processing:** Enables simultaneous processing of entire token windows across modern GPU hardware.
@@ -76,7 +76,7 @@ Engaged directly with the interactive NEURON-1 agent to trace how raw input data
 ### 2. Neural Network Topology & Weight Activation
 Manually calibrated hidden layer activations to optimize edge and vertical feature detection, validating node convergence for digit recognition:
 
-![Neural Network Activation Visualizer](./assets/completed_lab_2_2.jpg)
+![Neural Network Activation Visualizer](./assets/completed_lab_2.png)
 *Figure 4: Topology visualizer showing active synaptic connections, hidden layer routing, and final node selection.*
 
 ---
@@ -104,4 +104,6 @@ Mastering these building blocks provides the foundation required to assess syste
 
 ## 🔗 Next Steps
 With foundational AI architecture and neural network mechanics documented, the next write-up examines practical adversarial exploit vectors and prompt injection defenses.
+
+➡️ **Next Write-Up:** [02 - AI Security Threats: Prompt Injection, Poisoning & Model Inversion](./02-ai-security-threats.md)
 
